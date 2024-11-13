@@ -1,0 +1,16 @@
+-- Credits: Landonjf4 making this script / Bkkpro1980 (making original script that I skid from)
+
+if game.PlaceId == 150470833 then
+    for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "8t_csCandleShop" then
+            v:Destroy()
+        end
+    end
+
+
+    for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "8t_csCandleShop" then
+            v:Destroy()
+        end
+    end
+end

@@ -1,4 +1,20 @@
--- Credits: Landonjf4 making this script / Bkkpro1980 (making original script that I skid from)
+--[[ 
+GAME MADE BY G0Z CHECK IT OUT HERE: https://www.roblox.com/games/150470833/The-Circus-in-The-Sky
+SCRIPT MADE BY Landonjf4: https://www.roblox.com/users/93301110/profile
+Contributors: Bkkpro1980: https://www.roblox.com/users/1606513226/profile
+]]
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script made by";
+    Text = "Landonjf4";
+    Duration = 10;
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Contributors";
+    Text = "Bkkpro1980";
+    Duration = 10;
+})
 
 if game.PlaceId == 150470833 then
     for i, v in ipairs(workspace:GetChildren()) do
@@ -9,7 +25,655 @@ if game.PlaceId == 150470833 then
 
 
     for i, v in ipairs(workspace:GetChildren()) do
-        if v.Name == "8t_csCandleShop" then
+        if v.Name == "RetrosCounterfeits" then
+            v:Destroy()
+        end
+    end
+
+	    for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "ADoctorsTaleBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "AmazingApples" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Arneox's Bow-Tique!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Bacon's Bacon Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Billybob burger booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Charsqi's Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Cotton_Candy_Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "DrawingBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Klowns Party Hats" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Lockbon's Candy Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "LtzJaxel Lemonade" then
+            v:Destroy()
+        end
+    end
+
+			for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "NachoDad74's Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Obliquation's Curses" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Sey Booth (@LoveMixtape)" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Taffy Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Tiki's Masks." then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Tinsare's Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Tuliip's Lollipops" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Yellow's Tomato Booth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "kOOKYS funnel cakes" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Akia's Witch Shop!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "AlbertTheClownsCottonCandy" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "AlecsHats" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Alema's Coffee" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "AnythemesChurros" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "AnythemesClownRacing" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "BlahwaasAttire" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Blues Boba" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Bobbys Donuts" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Bonni's Pastries" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Dropsy's Rice Rack!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Icecream_Truck_OG" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "JawfootsFunCandy" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "H00P's Fantastic Lemonade" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "SK00TSY's Magic Stand!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Fresh popcorn" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "KalsMechWindupToys" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "K0GZ0sBrownies" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "SpinnsosCorndogs" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "C00Z0's Cakes" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Caroline @ Clinten's Kneecap Tacos!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Mig's Drink Candy!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "PheedStylePopcorn" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "ConnorsBurgers" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "HelpysSadCandyApples" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Frog_N Soft Drinks" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Xx's Soda" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "P00FYZsSlushies" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Choopsy Cookies Stand" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Sxonji ziinxa Bottled Fa" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Dean Dream Cake Remastered" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Zoey's garden items. " then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "KatlenKitten's Pride Flags" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "DinkysFriends" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Flymms Face paint" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "SolarExtravaganza" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "DonuttyandWills Dontuts" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "PANTZ0Z PIZZA" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "FrostixDoodles" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "RoseysPlushyCommissions" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Dump7y's Geodes" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "PickelzBar" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Tv's Machine Shop!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Buns and cakes stand from TheSmallSeaBunny" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Hecr0sHotdogs" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "SpinnsosCornDogs" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "NoixysPeanuts" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Donut Cart" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Edges Antiques" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "so many knives..." then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Red's Fortune Telling" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Clerince's Balloon Shop" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "DominicsDonuts" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Crud's Cake Pops" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Dusks Heart Shaped Muffins" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "CorruptedsRoses" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "NY0SI6sDunkTank" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Danny's Duck Show" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "T0PSI" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Wack 'n Head" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Hobo Bros Puppet Show" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "MimeTwins" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "MissAderells_Giftshop" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "TR4GED7sOversizedHoodies" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Godra's Ties!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "CakeysCakes" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "S0RJ0s Tacos and Fries" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "LoofysToys" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Lugia's Marketable Plushie Store (LugiaLorder97)" then
+            v:Destroy()
+        end
+    end
+
+			for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "CMCraft's carrot Bunny Cake" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Detri's Clairvoyance" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "Teddy's Art Tree!" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "GhostingsArt" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "OnePatchArt" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "MrFxxysArt" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "PitifulSundewsArt" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
+            v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "IdealiesArtBooth" then
             v:Destroy()
         end
     end

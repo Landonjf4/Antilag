@@ -2,6 +2,8 @@
 GAME MADE BY G0Z CHECK IT OUT HERE: https://www.roblox.com/games/150470833/The-Circus-in-The-Sky
 SCRIPT MADE BY Landonjf4: https://www.roblox.com/users/93301110/profile
 Contributors: Bkkpro1980: https://www.roblox.com/users/1606513226/profile
+
+Script: loadstring(game:HttpGet(('https://raw.githubusercontent.com/Landonjf4/CITS_Booth_Deletion/refs/heads/main/source'),true))()
 ]]
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
@@ -14,6 +16,13 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Contributors";
     Text = "Bkkpro1980";
     Duration = 10;
+})
+task.wait()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Deleting Booths...";
+    Text = " ";
+    Duration = 5;
 })
 
 if game.PlaceId == 150470833 then
@@ -678,3 +687,29 @@ if game.PlaceId == 150470833 then
         end
     end
 end
+
+task.wait()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Deleting Materials...";
+    Text = " ";
+    Duration = 5;
+})
+task.wait()
+-- Function to change material of all parts to Plastic
+local function removeMaterials()
+    for _, part in ipairs(workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            part.Material = Enum.Material.Plastic
+        end
+    end
+end
+
+-- Call the function to remove materials
+removeMaterials()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Enjoy without lag!";
+    Text = " ";
+    Duration = 5;
+})
+

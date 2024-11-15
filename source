@@ -9,13 +9,13 @@ Script: loadstring(game:HttpGet(('https://raw.githubusercontent.com/Landonjf4/CI
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Script made by";
     Text = "Landonjf4";
-    Duration = 10;
+    Duration = 60;
 })
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Contributors";
     Text = "Bkkpro1980";
-    Duration = 10;
+    Duration = 60;
 })
 task.wait()
 

@@ -710,7 +710,8 @@ end
 clearMaterialService()
 clearLighting()
 removeMaterials()
-
+task.wait()
+print("Enjoy No lag!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Enjoy without lag!";
     Text = " ";
@@ -718,14 +719,14 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Script made by";
+    Title = "Script by Landonjf4!";
     Text = "Landonjf4";
-    Duration = 60;
+    Duration = 15;
 })
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Contributors";
-    Text = "Bkkpro1980";
-    Duration = 60;
+    Title = "Contributors: Bkkpro1980!";
+    Text = " ";
+    Duration = 15;
 })
 

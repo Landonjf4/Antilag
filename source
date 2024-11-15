@@ -692,7 +692,23 @@ local function removeMaterials()
     end
 end
 
--- Call the function to remove materials
+
+local function clearLighting()
+    for _, child in ipairs(game.Lighting:GetChildren()) do
+        child:Destroy()
+    end
+end
+
+
+local function clearMaterialService()
+    for _, child in ipairs(game:GetService("MaterialService"):GetChildren()) do
+        child:Destroy()
+    end
+end
+
+
+clearMaterialService()
+clearLighting()
 removeMaterials()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{

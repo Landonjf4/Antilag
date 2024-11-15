@@ -1,6 +1,13 @@
--- Script by Landonjf4
--- Version 0.0.1
--- Enjoy!
+--[[ 
+
+Script by Landonjf4
+Version 0.0.1
+Enjoy!
+
+]]
+-- loadstring(game:HttpGet(('https://raw.githubusercontent.com/Landonjf4/Antilag/refs/heads/main/Circus%20In%20The%20Sky%20Remastered'),true))()
+
+
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Fixing Lag...";

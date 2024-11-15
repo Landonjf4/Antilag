@@ -1,0 +1,413 @@
+-- Script by Landonjf4
+-- Version 0.0.1
+-- Enjoy!
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Fixing Lag...";
+    Text = " ";
+    Duration = 5;
+})
+
+if game.PlaceId == 14525216741 then
+    for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Booths" then
+		v:Destroy()
+        end
+    end
+
+	    for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Boxes" then
+		v:Destroy()
+        end
+    end
+
+	    for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Benches" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Bags of lemons...." then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Candy" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Drinks" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Cycles" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Coconuts" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "CITS-Signs" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "ConstructionPallets" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Fences" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Graves" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Tents" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Trains" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Statues" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Streamers" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Trashcans" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "TixBooths" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Text" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "TeleScopes" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "SwingyClinten" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "StackedBricks" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "SpotLights" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Speakers" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Sirens" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "Buildings" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "AdminAreas" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "BackgroundElements" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "Foliage" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "BunnyBalloons" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Cutouts" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "PortaPotties" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "PopcornBags" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Radios" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "RedShanangins" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Signs" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Plushies" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "PoliceTape" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Pallets" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Pillars" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Plates" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Pitchers" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Mice" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "Mushrooms" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "TightRopes" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Props:GetChildren()) do
+        if v.Name == "LunchBenches" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "RainParticles" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "SoundEmitters" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "SoundRegions" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "Tunnels" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "VR Stuff" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "SandFootprints" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace:GetChildren()) do
+        if v.Name == "SnowFootprints" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Npcs:GetChildren()) do
+        if v.Name == "MAMAIM0G" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Npcs:GetChildren()) do
+        if v.Name == "CottonCandyGuy" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Npcs:GetChildren()) do
+        if v.Name == "CageCritters" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Npcs:GetChildren()) do
+        if v.Name == "Puppets" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Npcs:GetChildren()) do
+        if v.Name == "Monkies" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map.Npcs:GetChildren()) do
+        if v.Name == "Critters" then
+		v:Destroy()
+        end
+    end
+
+		for i, v in ipairs(workspace.Map:GetChildren()) do
+        if v.Name == "Wells" then
+		v:Destroy()
+        end
+    end
+end
+
+
+local function removeMaterials()
+    for _, part in ipairs(workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            part.Material = Enum.Material.Plastic
+        end
+    end
+end
+
+
+local function clearLighting()
+    for _, child in ipairs(game.Lighting:GetChildren()) do
+        child:Destroy()
+    end
+end
+
+
+local function clearMaterialService()
+    for _, child in ipairs(game:GetService("MaterialService"):GetChildren()) do
+        child:Destroy()
+    end
+end
+
+
+clearMaterialService()
+clearLighting()
+removeMaterials()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Lag Removed.";
+    Text = " ";
+    Duration = 5;
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script by Landonjf4";
+    Text = " ";
+    Duration = 15;
+})
+
+print("Lag removed.")

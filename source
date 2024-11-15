@@ -6,18 +6,6 @@ Contributors: Bkkpro1980: https://www.roblox.com/users/1606513226/profile
 Script: loadstring(game:HttpGet(('https://raw.githubusercontent.com/Landonjf4/CITS_Booth_Deletion/refs/heads/main/source'),true))()
 ]]
 
-game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Script made by";
-    Text = "Landonjf4";
-    Duration = 60;
-})
-
-game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Contributors";
-    Text = "Bkkpro1980";
-    Duration = 60;
-})
-task.wait()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Deleting Booths...";
@@ -711,5 +699,17 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Enjoy without lag!";
     Text = " ";
     Duration = 5;
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script made by";
+    Text = "Landonjf4";
+    Duration = 60;
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Contributors";
+    Text = "Bkkpro1980";
+    Duration = 60;
 })
 
